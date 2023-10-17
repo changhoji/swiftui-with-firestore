@@ -18,6 +18,10 @@
 		C98EEC032ADE104400350E72 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C98EEC022ADE104400350E72 /* FirebaseFirestore */; };
 		C98EEC052ADE104400350E72 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C98EEC042ADE104400350E72 /* FirebaseFirestoreCombine-Community */; };
 		C98EEC072ADE104400350E72 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C98EEC062ADE104400350E72 /* FirebaseFirestoreSwift */; };
+		C98EEC0B2ADE189100350E72 /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98EEC0A2ADE189100350E72 /* FirestoreManager.swift */; };
+		C98EEC132ADE2DF400350E72 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98EEC122ADE2DF400350E72 /* Diary.swift */; };
+		C98EEC172ADE5BFF00350E72 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98EEC162ADE5BFF00350E72 /* ColorExtension.swift */; };
+		C98EEC192ADE5F7800350E72 /* DiariesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98EEC182ADE5F7800350E72 /* DiariesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		C98EEBF02ADE0B9A00350E72 /* SwiftUIWithFirestoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWithFirestoreUITests.swift; sourceTree = "<group>"; };
 		C98EEBF22ADE0B9A00350E72 /* SwiftUIWithFirestoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWithFirestoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C98EEBFF2ADE0E7300350E72 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C98EEC0A2ADE189100350E72 /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
+		C98EEC122ADE2DF400350E72 /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
+		C98EEC162ADE5BFF00350E72 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		C98EEC182ADE5F7800350E72 /* DiariesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiariesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,10 @@
 				C98EEBFF2ADE0E7300350E72 /* GoogleService-Info.plist */,
 				C98EEBD52ADE0B9900350E72 /* SwiftUIWithFirestoreApp.swift */,
 				C98EEBD72ADE0B9900350E72 /* ContentView.swift */,
+				C98EEC0A2ADE189100350E72 /* FirestoreManager.swift */,
+				C98EEC122ADE2DF400350E72 /* Diary.swift */,
+				C98EEC162ADE5BFF00350E72 /* ColorExtension.swift */,
+				C98EEC182ADE5F7800350E72 /* DiariesViewModel.swift */,
 				C98EEBD92ADE0B9A00350E72 /* Assets.xcassets */,
 				C98EEBDB2ADE0B9A00350E72 /* Preview Content */,
 			);
@@ -276,6 +288,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C98EEBD82ADE0B9900350E72 /* ContentView.swift in Sources */,
+				C98EEC132ADE2DF400350E72 /* Diary.swift in Sources */,
+				C98EEC0B2ADE189100350E72 /* FirestoreManager.swift in Sources */,
+				C98EEC172ADE5BFF00350E72 /* ColorExtension.swift in Sources */,
+				C98EEC192ADE5F7800350E72 /* DiariesViewModel.swift in Sources */,
 				C98EEBD62ADE0B9900350E72 /* SwiftUIWithFirestoreApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
