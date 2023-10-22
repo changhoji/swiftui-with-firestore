@@ -1,3 +1,6 @@
+// from https://gist.github.com/peterfriese/bb2fc5df202f6a15cc807bd87ff15193#file-color-codable-swift
+// required for making Color to Codable
+
 import SwiftUI
 
 extension Color: Codable {

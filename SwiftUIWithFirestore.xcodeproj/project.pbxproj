@@ -8,20 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		C98EEBD62ADE0B9900350E72 /* SwiftUIWithFirestoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98EEBD52ADE0B9900350E72 /* SwiftUIWithFirestoreApp.swift */; };
-		C98EEBD82ADE0B9900350E72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98EEBD72ADE0B9900350E72 /* ContentView.swift */; };
 		C98EEBDA2ADE0B9A00350E72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C98EEBD92ADE0B9A00350E72 /* Assets.xcassets */; };
 		C98EEBDD2ADE0B9A00350E72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C98EEBDC2ADE0B9A00350E72 /* Preview Assets.xcassets */; };
-		C98EEBE72ADE0B9A00350E72 /* SwiftUIWithFirestoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98EEBE62ADE0B9A00350E72 /* SwiftUIWithFirestoreTests.swift */; };
-		C98EEBF12ADE0B9A00350E72 /* SwiftUIWithFirestoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98EEBF02ADE0B9A00350E72 /* SwiftUIWithFirestoreUITests.swift */; };
-		C98EEBF32ADE0B9A00350E72 /* SwiftUIWithFirestoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98EEBF22ADE0B9A00350E72 /* SwiftUIWithFirestoreUITestsLaunchTests.swift */; };
 		C98EEC002ADE0E7300350E72 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C98EEBFF2ADE0E7300350E72 /* GoogleService-Info.plist */; };
 		C98EEC032ADE104400350E72 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C98EEC022ADE104400350E72 /* FirebaseFirestore */; };
 		C98EEC052ADE104400350E72 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C98EEC042ADE104400350E72 /* FirebaseFirestoreCombine-Community */; };
 		C98EEC072ADE104400350E72 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C98EEC062ADE104400350E72 /* FirebaseFirestoreSwift */; };
-		C98EEC0B2ADE189100350E72 /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98EEC0A2ADE189100350E72 /* FirestoreManager.swift */; };
 		C98EEC132ADE2DF400350E72 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98EEC122ADE2DF400350E72 /* Diary.swift */; };
 		C98EEC172ADE5BFF00350E72 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98EEC162ADE5BFF00350E72 /* ColorExtension.swift */; };
-		C98EEC192ADE5F7800350E72 /* DiariesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98EEC182ADE5F7800350E72 /* DiariesViewModel.swift */; };
+		C98EEC192ADE5F7800350E72 /* DiaryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98EEC182ADE5F7800350E72 /* DiaryRepository.swift */; };
+		C98EEC7D2AE41C8E00350E72 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98EEC7C2AE41C8E00350E72 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,19 +40,15 @@
 /* Begin PBXFileReference section */
 		C98EEBD22ADE0B9900350E72 /* SwiftUIWithFirestore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIWithFirestore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98EEBD52ADE0B9900350E72 /* SwiftUIWithFirestoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWithFirestoreApp.swift; sourceTree = "<group>"; };
-		C98EEBD72ADE0B9900350E72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C98EEBD92ADE0B9A00350E72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C98EEBDC2ADE0B9A00350E72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C98EEBE22ADE0B9A00350E72 /* SwiftUIWithFirestoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIWithFirestoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C98EEBE62ADE0B9A00350E72 /* SwiftUIWithFirestoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWithFirestoreTests.swift; sourceTree = "<group>"; };
 		C98EEBEC2ADE0B9A00350E72 /* SwiftUIWithFirestoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIWithFirestoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C98EEBF02ADE0B9A00350E72 /* SwiftUIWithFirestoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWithFirestoreUITests.swift; sourceTree = "<group>"; };
-		C98EEBF22ADE0B9A00350E72 /* SwiftUIWithFirestoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWithFirestoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C98EEBFF2ADE0E7300350E72 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		C98EEC0A2ADE189100350E72 /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
 		C98EEC122ADE2DF400350E72 /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
 		C98EEC162ADE5BFF00350E72 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
-		C98EEC182ADE5F7800350E72 /* DiariesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiariesViewModel.swift; sourceTree = "<group>"; };
+		C98EEC182ADE5F7800350E72 /* DiaryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryRepository.swift; sourceTree = "<group>"; };
+		C98EEC7C2AE41C8E00350E72 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,12 +79,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C96211B12AE4C5A0007500C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C98EEC122ADE2DF400350E72 /* Diary.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C96211B22AE4C5A5007500C0 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				C98EEC182ADE5F7800350E72 /* DiaryRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
 		C98EEBC92ADE0B9900350E72 = {
 			isa = PBXGroup;
 			children = (
 				C98EEBD42ADE0B9900350E72 /* SwiftUIWithFirestore */,
-				C98EEBE52ADE0B9A00350E72 /* SwiftUIWithFirestoreTests */,
-				C98EEBEF2ADE0B9A00350E72 /* SwiftUIWithFirestoreUITests */,
 				C98EEBD32ADE0B9900350E72 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,13 +116,12 @@
 		C98EEBD42ADE0B9900350E72 /* SwiftUIWithFirestore */ = {
 			isa = PBXGroup;
 			children = (
+				C96211B22AE4C5A5007500C0 /* Repositories */,
+				C96211B12AE4C5A0007500C0 /* Models */,
+				C98EEC7A2AE41AC800350E72 /* Views */,
+				C98EEC7B2AE41C7700350E72 /* Extensions */,
 				C98EEBFF2ADE0E7300350E72 /* GoogleService-Info.plist */,
 				C98EEBD52ADE0B9900350E72 /* SwiftUIWithFirestoreApp.swift */,
-				C98EEBD72ADE0B9900350E72 /* ContentView.swift */,
-				C98EEC0A2ADE189100350E72 /* FirestoreManager.swift */,
-				C98EEC122ADE2DF400350E72 /* Diary.swift */,
-				C98EEC162ADE5BFF00350E72 /* ColorExtension.swift */,
-				C98EEC182ADE5F7800350E72 /* DiariesViewModel.swift */,
 				C98EEBD92ADE0B9A00350E72 /* Assets.xcassets */,
 				C98EEBDB2ADE0B9A00350E72 /* Preview Content */,
 			);
@@ -131,21 +136,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		C98EEBE52ADE0B9A00350E72 /* SwiftUIWithFirestoreTests */ = {
+		C98EEC7A2AE41AC800350E72 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C98EEBE62ADE0B9A00350E72 /* SwiftUIWithFirestoreTests.swift */,
+				C98EEC7C2AE41C8E00350E72 /* HomeView.swift */,
 			);
-			path = SwiftUIWithFirestoreTests;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		C98EEBEF2ADE0B9A00350E72 /* SwiftUIWithFirestoreUITests */ = {
+		C98EEC7B2AE41C7700350E72 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				C98EEBF02ADE0B9A00350E72 /* SwiftUIWithFirestoreUITests.swift */,
-				C98EEBF22ADE0B9A00350E72 /* SwiftUIWithFirestoreUITestsLaunchTests.swift */,
+				C98EEC162ADE5BFF00350E72 /* ColorExtension.swift */,
 			);
-			path = SwiftUIWithFirestoreUITests;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,12 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C98EEBD82ADE0B9900350E72 /* ContentView.swift in Sources */,
 				C98EEC132ADE2DF400350E72 /* Diary.swift in Sources */,
-				C98EEC0B2ADE189100350E72 /* FirestoreManager.swift in Sources */,
 				C98EEC172ADE5BFF00350E72 /* ColorExtension.swift in Sources */,
-				C98EEC192ADE5F7800350E72 /* DiariesViewModel.swift in Sources */,
+				C98EEC192ADE5F7800350E72 /* DiaryRepository.swift in Sources */,
 				C98EEBD62ADE0B9900350E72 /* SwiftUIWithFirestoreApp.swift in Sources */,
+				C98EEC7D2AE41C8E00350E72 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +303,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C98EEBE72ADE0B9A00350E72 /* SwiftUIWithFirestoreTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +310,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C98EEBF32ADE0B9A00350E72 /* SwiftUIWithFirestoreUITestsLaunchTests.swift in Sources */,
-				C98EEBF12ADE0B9A00350E72 /* SwiftUIWithFirestoreUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,9 +465,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = changhoji.SwiftUIWithFirestore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -493,9 +496,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = changhoji.SwiftUIWithFirestore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

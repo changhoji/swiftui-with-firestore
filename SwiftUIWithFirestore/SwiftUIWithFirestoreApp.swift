@@ -23,7 +23,7 @@ struct SwiftUIWithFirestoreApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
